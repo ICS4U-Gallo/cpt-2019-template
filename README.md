@@ -20,6 +20,8 @@ Most of these tasks can be turned into cards for your kanban boards.
 
 
 ## Structure
+Try to limit yourselves to a `settings.py`, `main.py`, `menu.py` and one file per person in the group.
+
 ### `settings.py`
 This is a place to put data that *every* view needs. You can see I have placed the screen width and height in here. Other things may include colors common to your game, image file locations, and user prefrences.
 
