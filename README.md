@@ -15,12 +15,17 @@ Using [Arcade](https://arcade.academy)
 
 ## Requirements
 You will be graded on how well *each* member demonstrates the following:
-- Use of variables
-- If statements
-- Loops
 - Functions
-- Lists
-- PEP8 Guidelines
+- Annotation, Doc strings
+- Classes
+    - Inheritance
+    - Encapsulation
+    - Methods (instance, class, static)
+- Recursion
+- Searching
+- Sorting
+- PEP8
+
 
 ## Tasks
 Most of these tasks can be turned into cards for your kanban boards.
@@ -41,8 +46,13 @@ Most of these tasks can be turned into cards for your kanban boards.
 ### Day 3
 - Sketches
 - prioritized list of desired functionality
+- Each person mini game idea
+- Each person must explain how to include:
+    - Classes
+    - Searching
+    - Sorting
+    - recursion
 - Tasks added to kanban board
-
 
 ## Structure
 Try to limit yourselves to a `settings.py`, `main.py`, `menu.py` and one file per person in the group.
