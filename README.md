@@ -8,15 +8,23 @@ Using [Arcade](https://arcade.academy)
 ## Tasks
 Most of these tasks can be turned into cards for your kanban boards.
 
+### Day 1
 - Get into groups (2-5) people
-- The group should have an over-arching story or theme.
 - Set up a kanban board
+
+### Day 2
+- The group should have an over-arching story or theme.
 - Set up your group on github classroom
 - Each member should attempt the following:
     - Review the project [structure](#structure)
     - [Add their personal view](#adding-views)
     - Test that their view works running from `main.py`
     - Test that their view works running the file *directly*.
+
+### Day 3
+- Sketches
+- prioritized list of desired functionality
+- Tasks added to kanban board
 
 
 ## Structure
