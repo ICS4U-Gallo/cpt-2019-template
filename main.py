@@ -10,10 +10,10 @@ class Director(arcade.Window):
     def __init__(self, width, height, title):
         super().__init__(width, height, title)
         self.view_index = 0
-        self.views = {
-            0: MenuView,
-            1: Chapter1View
-        }
+        self.views = [
+            MenuView,
+            Chapter1View
+        ]
         self.next_view()
 
     def next_view(self):

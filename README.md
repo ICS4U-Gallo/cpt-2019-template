@@ -43,17 +43,24 @@ Follow the short tutorial to add a new view:
 - Change the details in that code:
     - Line 6: Change `MenuView` to `Chapter2View`
     - Line 12: Change the `"Menu"` string to `"Chapter 2"`
-    - Line 20: Change the title of the window
-    - Line 21: Change `MenuView` to `Chapter2View`
+    - Line 31: Change `MenuView` to `Chapter2View`
     - save the file
 
 Next, in the `main.py` file, you need to import this new file and class.
 
 - Under Line 6, import the file and class you just modified.
-    - `from chapter_2 import Chapter2View`
-- In the `Director` class `self.views` dictionary, add a third item.
-You will need to add a comma `,` after the previous entry:
-    - `2: Chapter2View`
+    ```python
+    from chapter_2 import Chapter2View
+    ```
+- In the `Director` class `self.views` list, add a third item.
+You will need to add a comma `,` after the previous entry. It should now look like:
+    ```python
+    self.views = [
+        MenuView,
+        Chapter1View,  # it's easy to forget the comma here
+        Chapter2View
+    ]
+    ```
 - At this point, save the `main.py` file
 - You can now run `main.py`, pressing a key to advance to the next window.
 
@@ -71,4 +78,5 @@ if len(enemy_ships) == 0:
     self.director.next_view()
 ```
 
-*Note: When running your scene directly, not from `main.py`'s `Director`, you will get an error when this method triggers.*
+*Note: When running your scene directly, not from `main.py`'s `Director`, I set up code to print out `"SCENE COMPLETE"` and exit
+the window. You can prevent it from exiting the window by setting the key-word argument `close_on_next_view` to `False`.*
