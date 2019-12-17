@@ -35,7 +35,7 @@ Most of these tasks can be turned into cards for your kanban boards.
 - Set up a kanban board
 
 ### Day 2
-- The group should have an over-arching story or theme.
+- The group should have an over-arcing story or theme.
 - Set up your group on github classroom
 - Each member should attempt the following:
     - Review the project [structure](#structure)
