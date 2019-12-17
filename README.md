@@ -13,6 +13,15 @@ Using [Arcade](https://arcade.academy)
 - Group members will be responsible for their own arcade view.
 - No Images or sound files.
 
+## Requirements
+You will be graded on how well *each* member demonstrates the following:
+- Use of variables
+- If statements
+- Loops
+- Functions
+- Lists
+- PEP8 Guidelines
+
 ## Tasks
 Most of these tasks can be turned into cards for your kanban boards.
 
