@@ -1,5 +1,5 @@
 # Program Title (replace)
-Program description. Replace with description of your program.
+Program description. Replace with description of your program. Give a description of each scene.
 
 ### Group Members:
 - Member1
