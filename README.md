@@ -44,15 +44,17 @@ Most of these tasks can be turned into cards for your kanban boards.
     - Test that their view works running the file *directly*.
 
 ### Day 3
+Add the following to the kanban board:
+- Think of mini-game idea
 - Sketches
-- prioritized list of desired functionality
-- Each person mini game idea
+    - Take pictures and upload to your github repo in the folder `planning/yourlastname/`.
+- prioritized list of desired features
+    - Create a text file. Place in `planning/yourlastname/`.
 - Each person must explain how to include:
     - Classes
     - Searching
     - Sorting
     - recursion
-- Tasks added to kanban board
 
 ## Structure
 Try to limit yourselves to a `settings.py`, `main.py`, `menu.py` and one file per person in the group.
